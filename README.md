@@ -27,31 +27,31 @@ A set of responsive images for the website can be found in the 'images/responsiv
   - Update npm to the latest version
     - In Terminal (or Command Shell for Windows), enter:  
     ```shell
-        npm update -g npm             # npm commands may require 'sudo' (or the command shell to be run as Admin for Windows)
+       npm update -g npm             # npm commands may require 'sudo' (or the command shell to be run as Admin for Windows)
     ```
 
 - Install Grunt Node Modules inside the project folder (as Grunt must be installed on a per-project basis)
   - In Terminal/Command Shell:
-   - change directory to the root of the project folder 
+    - change directory to the root of the project folder 
     ```shell
-        cd [path of project root]
+       cd [path of project root]
     ```
     - install Node modules  
     ```shell
-        npm install
+       npm install
     ```
 
 - Install Grunt CLI (Command Line Interface) to allow Grunt to be run using terminal commands
   - In Terminal/Command Shell, enter:  
   ```shell
-      npm install -g grunt-cli
+     npm install -g grunt-cli
   ```
 
 **Generate**
 - Generate responsive images
   - In Terminal/Command Shell, enter:  
   ```shell
-      grunt
+     grunt
   ```
 
 
