@@ -1,0 +1,198 @@
+body {
+    background-color: #17253A;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container {
+    background-color: white;
+    color: #42c299;
+    font-family: "Rambla", sans-serif;
+    margin: 0 auto;
+    padding: 20px 3% 50px 3%;
+}
+
+/* Header */
+
+header {
+    display: flex;
+}
+
+.icon {
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+}
+
+.personal-image {
+    box-shadow: 1px 2px 10px gray;
+    max-width: 100px;
+    width: 100%;
+}
+
+.header-text {
+    text-align: right;
+}
+
+.personal-name {
+    font-size: 40pt;
+    margin: 0;
+}
+
+.subtitle {
+    color: gray;
+    font-size: 16pt;
+    margin: 0;
+}
+
+.separator {
+    background-color: #42c299;
+    border-radius: 2px;
+    margin: 20px 0;
+    height: 4px;
+}
+
+/* Main Content */
+
+.displayed-project {
+    text-align: center;
+}
+
+.thumbnail-image {
+    box-shadow: 2px 7px 15px gray;
+    width: 100%;
+}
+
+.featured-work {
+    margin-top: 30px;
+}
+
+.featured-title {
+    font-size: 16pt;
+    margin-top: 10px;
+    margin-bottom: 0;
+    word-wrap: break-word;
+}
+
+.project-tiles {
+    display: flex;
+    text-align: center;
+}
+
+.project-tile {
+    margin-top: 25px;
+}
+
+.thumbnail {
+    margin: 0;
+    padding: 0 15px;
+}
+
+.featured-thumbnail-image {
+    box-shadow: 2px 7px 15px gray;
+    width: 100%;
+}
+
+.caption-name {
+    font-size: 16pt;
+    margin-top: 12px;
+    word-wrap: break-word;
+}
+
+.caption-link {
+    color: gray;
+    font-size: 12pt;
+    word-wrap: break-word;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 800px) {
+
+    .personal-name {
+        font-size: 35pt;
+    }
+
+    .subtitle {
+        font-size: 14pt;
+    }
+
+    .featured-title {
+        font-size: 12pt;
+    }
+
+    .caption-name {
+        font-size: 12pt;
+    }
+
+    .caption-link {
+        font-size: 8pt;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .personal-name {
+        font-size: 32pt;
+    }
+
+    .subtitle {
+        font-size: 13pt;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+
+    .personal-name {
+        font-size: 30pt;
+    }
+
+    .subtitle {
+        font-size: 12pt;
+    }
+
+    .project-tiles {
+        display: block;
+    }
+
+    .project-tile {
+        margin: 20px auto 0 auto;
+        padding-bottom: 10px;
+        width: 75%;
+    }
+
+    .caption-name {
+        font-size: 12pt;
+    }
+
+    .caption-link {
+        font-size: 8pt;
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+
+    .personal-name {
+        font-size: 27pt;
+    }
+
+    .subtitle {
+        font-size: 11pt;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .personal-name {
+        font-size: 24pt;
+    }
+
+    .subtitle {
+        font-size: 10pt;
+    }
+
+}
