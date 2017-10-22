@@ -2,7 +2,7 @@
 
 **Description**
 ---------------
-Source code for a portfolio website project which displays a set screenshots and source code links for cooresponding projects.
+A responsive portfolio website which displays images and links for cooresponding development projects.
 
 
 **Download**
@@ -12,6 +12,8 @@ To download the project source code, simply clone the repository or download and
 
 **Generate Responsive Images**
 ---------------
+A set of responsive images for the website can be found in the 'images/responsive' folder. These images are generated from source images in the 'images/src' folder, using the ImageMagick tool with the help of the Grunt task runner tool.
+
 **System Requirements**
 - ImageMagick
 - Node.js
@@ -23,14 +25,14 @@ To download the project source code, simply clone the repository or download and
 
 - To install Node.js, visit https://nodejs.org/en/download/
   - Update npm to the latest version
-    - In Terminal, enter:  
+    - In Terminal (or Command Shell for Windows), enter:  
     ```shell
-        npm update -g npm         # may require 'sudo'
+        npm update -g npm             # npm commands may require 'sudo' (or the command shell to be run as Admin for Windows)
     ```
 
-- Install Grunt Node Modules
-  - In Terminal:
-    - change directory to the root of the project folder 
+- Install Grunt Node Modules inside the project folder (as Grunt must be installed on a per-project basis)
+  - In Terminal/Command Shell:
+   - change directory to the root of the project folder 
     ```shell
         cd [path of project root]
     ```
@@ -39,15 +41,15 @@ To download the project source code, simply clone the repository or download and
         npm install
     ```
 
-- Install Grunt CLI
-  - In Terminal, enter:  
+- Install Grunt CLI (Command Line Interface) to allow Grunt to be run using terminal commands
+  - In Terminal/Command Shell, enter:  
   ```shell
       npm install -g grunt-cli
   ```
 
 **Generate**
 - Generate responsive images
-  - In Terminal, enter:  
+  - In Terminal/Command Shell, enter:  
   ```shell
       grunt
   ```
