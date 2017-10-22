@@ -12,13 +12,14 @@ To download the project source code, simply clone the repository or download and
 
 **Generate Responsive Images**
 ---------------
-A set of responsive images for the website can be found in the 'images/responsive' folder. These images are generated from source images in the 'images/src' folder, using the ImageMagick tool with the help of the Grunt task runner tool.
+A set of responsive images that are used for the website can be found in the 'images/responsive' folder. These images are generated from source images in the 'images/src' folder, using [ImageMagick](https://www.imagemagick.org/script/index.php) with the help of [Grunt](https://gruntjs.com/) and [Grunt Responsive Images](https://github.com/andismith/grunt-responsive-images/).
 
 **System Requirements**
 - ImageMagick
 - Node.js
   - With latest npm (Node Package Manager) version
 - Grunt v0.4.5+
+- Grunt Responsive Images Node Module
 
 **Requirements Installation**
 - To install ImageMagick, visit http://www.imagemagick.org/script/download.php
