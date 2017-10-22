@@ -93,16 +93,22 @@ header {
     width: 100%;
 }
 
+.caption {
+    margin-top: 12px;
+}
+
+.caption-name, .caption-link {
+    margin: 0;
+    word-wrap: break-word;
+}
+
 .caption-name {
     font-size: 16pt;
-    margin-top: 12px;
-    word-wrap: break-word;
 }
 
 .caption-link {
     color: gray;
     font-size: 12pt;
-    word-wrap: break-word;
 }
 
 /* Media Queries */
@@ -154,7 +160,7 @@ header {
     }
 
     .project-tiles {
-        display: block;
+        flex-wrap: wrap;
     }
 
     .project-tile {
